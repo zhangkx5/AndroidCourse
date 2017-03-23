@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.kaixin.experimentfour.MainActivity">
+
+    <Button
+        android:id="@+id/btn_static_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginBottom="@dimen/btn_vertical_margin"
+        android:padding="@dimen/btn_padding"
+        android:text="@string/static_register"
+        android:textSize="@dimen/btn_textsize"/>
+
+    <Button
+        android:id="@+id/btn_dynamic_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="@dimen/btn_vertical_margin"
+        android:padding="@dimen/btn_padding"
+        android:text="@string/dynamic_register"
+        android:textSize="@dimen/btn_textsize"/>
+
+</LinearLayout>

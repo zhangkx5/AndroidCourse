@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExperimentTwo</string>
+    <string name="title">中山大学课外体育积分电子认证系统</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="username_hint">请输入用户名</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="student_select">学生</string>
+    <string name="teacher_select">老师</string>
+    <string name="club_select">社团</string>
+    <string name="manager_select">管理者</string>
+    <string name="login_btn">登录</string>
+    <string name="register_btn">注册</string>
+    <string name="basic_btn">基础</string>
+    <string name="expand_btn">拓展</string>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+tools:context="com.example.kaixin.myapplication.MainActivity">
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="@dimen/title_size"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:text="@string/title" />
+
+<ImageView
+    android:id="@+id/imgsysu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:src="@mipmap/sysu"/>
+
+<TableLayout
+    android:id="@+id/user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:stretchColumns="1,2">
+
+    <TableRow
+        android:layout_marginBottom="@dimen/table_vertical_margin">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="@dimen/table_size"
+            android:text="@string/username"/>
+
+        <EditText
+            android:id="@+id/username_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_size"
+            android:hint="@string/username_hint"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="@dimen/table_size"
+            android:text="@string/password"/>
+
+        <EditText
+            android:id="@+id/password_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/table_size"
+            android:inputType="textPassword"
+            android:hint="@string/password_hint"/>
+    </TableRow>
+</TableLayout>
+
+<RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:gravity="center">
+
+    <RadioButton
+        android:id="@+id/radiobutton0"
+        style="@style/radio_btn"
+        android:layout_marginRight="@dimen/radio_horizontal_margin"
+        android:checked="true"
+        android:text="@string/student_select"/>
+    <RadioButton
+        android:id="@+id/radiobutton1"
+        style="@style/radio_btn"
+        android:layout_marginRight="@dimen/radio_horizontal_margin"
+        android:text="@string/teacher_select"/>
+    <RadioButton
+        android:id="@+id/radiobutton2"
+        style="@style/radio_btn"
+        android:layout_marginRight="@dimen/radio_horizontal_margin"
+        android:text="@string/club_select"/>
+    <RadioButton
+        android:id="@+id/radiobutton3"
+        style="@style/radio_btn"
+        android:text="@string/manager_select"/>
+</RadioGroup>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_marginRight="@dimen/btn_horizontal_margin"
+            android:text="@string/login_btn"
+            style="@style/btn"/>
+        <Button
+            android:id="@+id/register"
+            android:text="@string/register_btn"
+            style="@style/btn"/>
+
+    </TableRow>
+</TableLayout>
+</LinearLayout>

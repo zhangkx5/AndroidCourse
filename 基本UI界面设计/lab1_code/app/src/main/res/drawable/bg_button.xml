@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/btn_radio"/>
+    <solid
+        android:color="@color/colorbtnbg"/>
+    <padding
+        android:bottom="@dimen/btn_vertical_padding"
+        android:top="@dimen/btn_vertical_padding"
+        android:left="@dimen/btn_horizontal_padding"
+        android:right="@dimen/btn_horizontal_padding"/>
+</shape>

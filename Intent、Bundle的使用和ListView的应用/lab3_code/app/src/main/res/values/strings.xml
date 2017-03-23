@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExperimentThree</string>
+    <string name="name">zhangkaixin</string>
+    <string name="type">手机</string>
+    <string name="phonenum">18819253770</string>
+    <string name="more">更多资料</string>
+    <string name="address">广东广州移动</string>
+</resources>

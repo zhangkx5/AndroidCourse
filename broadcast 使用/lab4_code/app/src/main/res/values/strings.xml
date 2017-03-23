@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExperimentFour</string>
+    <string name="static_register">静态注册</string>
+    <string name="dynamic_register">动态注册</string>
+    <string name="btn_register">Register Broadcast</string>
+    <string name="btn_send">Send</string>
+</resources>
